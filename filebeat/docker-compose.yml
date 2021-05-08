@@ -6,7 +6,7 @@ services:
     user: root
     volumes:
       - type: bind
-        source: ./filebeat/filebeat.yml
+        source: ./filebeat.yml
         target: /usr/share/filebeat/filebeat.yml
       - type: bind
         source: /var/run/docker.sock
