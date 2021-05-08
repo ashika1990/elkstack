@@ -1,7 +1,7 @@
-#output.elasticsearch:
-#   hosts: ["10.0.48.153:9200"]
-output.logstash:
-   hosts: ["10.0.48.153:5044"]
+output.elasticsearch:
+   hosts: ["10.0.48.153:9200"]
+#output.logstash:
+#   hosts: ["10.0.48.153:5044"]
 setup.kibana:
    host: "10.0.48.153:5601"
 
